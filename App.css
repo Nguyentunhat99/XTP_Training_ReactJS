@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,122 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.container{
+  max-width: 900px;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.part_1 {
+  border: ridge;
+  border-top: none;
+}
+.title_addTask {
+  background-color: rgb(248, 248, 248);
+  border-top: ridge;
+  border-bottom: ridge;
+
+}
+.title_addTask h3 {
+  font-size: 20px;
+  margin-left: 15px;
+  font-weight: 500;
+}
+.item {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.item label {
+  font-size: 20px;
+  margin-left: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.content {
+  margin-left: 15px;
+  width: 850px;
+  height: 40px;
+  border: ridge;
+}
+#note {
+  margin-left: 15px;
+  font-size: 13px;
+  color: rgb(71, 71, 71);
+  margin-top: 5px;;
+}
+.submit {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.submit button {
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(66, 66, 252);
+  border: none;
+  color: #fff;
+  margin-bottom: 20px;;
+}
+.part_2 {
+  border: ridge;
+  border-top: none;
+  margin-top: 25px;
+}
+.title_List {
+  background-color: rgb(248, 248, 248);
+  border-top: ridge;
+  border-bottom: ridge;
+
+}
+.title_List h3 {
+  font-size: 20px;
+  margin-left: 15px;
+  font-weight: 500;
+}
+.list {
+  margin-top: 20px;
+}
+.list  thead th {
+  width: 300px;
+  text-align: left;
+}
+.list  thead th label {
+  margin-left: 15px;
+  font-size: 20px;
+}
+.tbody {
+  margin-top: 15px;
+}
+
+tbody th {
+  margin-top: 10px;;
+  width: 300px;
+  text-align: left;
+}
+tbody th label {
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: normal;
+}
+#complete {
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(66, 66, 252);
+  color: #fff;
+  border: none;
+  margin-left: 15px;
+}
+#delete {
+  margin-left: 5px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(243, 0, 122);
+  color: #fff;
+  border: none;
+}
+.todo_list {
+  margin-bottom: 20px;
 }
